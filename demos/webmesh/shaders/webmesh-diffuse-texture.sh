@@ -101,7 +101,7 @@ void main() {
 
 #if defined TEXTURE_DIFFUSE
 	vec4 texColor = texture2D(u_diffuse_texture, v_coord);
-	diffuseColor *= texColor.xyz
+	diffuseColor *= texColor.xyz;
 #endif
 
 #if defined LIGHT
