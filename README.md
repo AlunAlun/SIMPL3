@@ -17,3 +17,7 @@ Download the full build from the [github repository](https://github.com/AlunAlun
 Check out the demos: [basic](http://alunevans.info/projects/SIMPL3/demos/basic/) /
  [loading an external shader](http://alunevans.info/projects/SIMPL3/demos/external_shaders/) /
  [a fully-fledged component](http://alunevans.info/projects/SIMPL3/demos/webmesh/).
+
+SIMPL3 is licensed under the MIT license as described in the license file.
+
+For more info contact me at [alunevans.info](http://alunevans.info) or [@alunthomasevans](https://twitter.com/alunthomasevans)
