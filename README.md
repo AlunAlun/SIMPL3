@@ -12,7 +12,7 @@ SIMPL3 uses Javi Agenjo's [LiteGL](http://tamats.com/projects/litegl/) for gl re
 
 ### How to use:
 
-Download the full build from the github repository.
+Download the full build from the [github repository](https://github.com/AlunAlun/SIMPL3/tree/master/build).
 
 Check out the demos: [basic](http://alunevans.info/projects/SIMPL3/demos/basic/) /
  [loading an external shader](http://alunevans.info/projects/SIMPL3/demos/external_shaders/) /
