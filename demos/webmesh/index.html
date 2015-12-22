@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>SIMPL3 demo</title>
+	<meta name="description" content="SIMPL3">
+	<meta name="author" content="Alun Evans">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+
+	<!--script type="text/javascript" src="../../external/gl-matrix.js"></script>
+	<script type="text/javascript" src="../../external/litegl.js"></script>
+	<script type="text/javascript" src="../../src/SIMPL3.js"></script-->
+
+	<script type="text/javascript" src="../../build/SIMPL3-full.min.js"></script>
+	<script type="text/javascript" src="js/SIMPL3.WebMeshComponent.js"></script>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div id="content"></div>
+
+<script>
+
+//init SIMPL3
+SIMPL3.init("content");
+
+//set camera, (position, target)
+SIMPL3.setCamera([0,0,2], [0,0,0]);
+
+//set light
+SIMPL3.setLight([-1000, 1000, 1000]);
+
+var room = new WebMesh("shaders/webmesh-diffuse-texture.sh",	
+						"assets/buddha-oct.json", 
+						{light:true, loadBar:true});
+
+//create component and add it to the scene
+SIMPL3.objects.push(room);
+
+
+</script>
+</body>
+</html>

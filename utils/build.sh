@@ -1,0 +1,1 @@
+./compressjs.sh ../external/gl-matrix.js ../external/litegl.js ../src/SIMPL3.js ../build/SIMPL3-full.min.js
